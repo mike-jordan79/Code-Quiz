@@ -4,10 +4,19 @@ const questionContainer = document.querySelector('.question-container')
 
 const btn =document.querySelector('.button')
 
-btn.addEventListener('click', function(){
-    creatingMain.classList.add('hide')
-    questionContainer.classList.remove('hide')
-    
+btn.addEventListener('click', startGame)
 
-})
-console.log('hello')
+ function startGame(){
+    creatingMain.classList.add('hide')
+    questionContainer.classList.remove('hide');
+    // add questions
+    // start clock
+ }
+
+ function addQuestions(event) {
+
+ }
+
+ function startClock(event) {
+    
+ }

@@ -36,7 +36,7 @@ text-align: center;
     width: 500px;
 }
 
-.question-container button {
+ .btn-holder {
     width: 150px;
     min-height: 20px;
     display: block;
